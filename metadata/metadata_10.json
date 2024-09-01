@@ -1,0 +1,39 @@
+{
+  "description": "Ferrite vertical LairdTech 28C0236-0JW-10",
+  "external_url": "https://hardwaretor.com",
+  "name": "LairdTech_28C0236-0JW-10",
+  "image": "ipfs://QmPGJZ9bGGex2q6hELH8rXKF2VnVY4Dg7mh5RaLR4v4iwz",
+  "background_color": "#ffffff",
+  "attributes": [
+    {
+      "display_type": "string",
+      "trait_type": "Technology",
+      "value": "THT"
+    },
+    {
+      "display_type": "string",
+      "trait_type": "Orientation",
+      "value": "vertical"
+    },
+    {
+      "display_type": "string",
+      "trait_type": "3D Model",
+      "value": "ipfs://Qma2ZuquMudpKph14Pgfxo3Zx9A7nd34HAjPo1w7h8a3wx"
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Power",
+      "value": 2
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Price",
+      "value": 8
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Use",
+      "value": 1
+    }
+  ]
+}

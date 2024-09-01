@@ -1,0 +1,28 @@
+{
+  "external_url": "https://hardwaretor.com",
+  "name": "sw-vert-tht-7.5x6x6.5",
+  "image": "ipfs://QmPNDu1fiSfSNkEJRx5wxUhzKNbrBaK2riJ4hAkd1JjZZr",
+  "background_color": "#ffffff",
+  "attributes": [
+    {
+      "display_type": "string",
+      "trait_type": "3D Model",
+      "value": "ipfs://QmUM1e1Y5jR4w29otauNwYhfbAaw64LkcafqMynTLkVVZN"
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Power",
+      "value": 3
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Price",
+      "value": 4
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Use",
+      "value": 9
+    }
+  ]
+}

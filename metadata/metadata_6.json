@@ -1,0 +1,39 @@
+{
+  "description": "USB USB_B USB_Mini connector",
+  "external_url": "https://hardwaretor.com",
+  "name": "USB_Mini-B_Lumberg_2486_01_Horizontal",
+  "image": "ipfs://QmVedhRF3ouDaCHfQCptPDv7AVRXq3pz7ivhjHfYPXtKop",
+  "background_color": "#ffffff",
+  "attributes": [
+    {
+      "display_type": "string",
+      "trait_type": "Type",
+      "value": "Connector"
+    },
+    {
+      "display_type": "string",
+      "trait_type": "Technology",
+      "value": "SMD"
+    },
+    {
+      "display_type": "string",
+      "trait_type": "3D Model",
+      "value": "ipfs://QmcjVstLPLS2UcQzzcnrdAo85VNjJayDgyXKgjywDcc9uJ"
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Power",
+      "value": 10
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Price",
+      "value": 6
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Use",
+      "value": 2
+    }
+  ]
+}

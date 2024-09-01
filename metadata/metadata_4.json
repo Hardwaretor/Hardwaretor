@@ -1,0 +1,34 @@
+{
+  "description": "VSSOP DCU R-PDSO-G8 Pitch0.5mm",
+  "external_url": "https://hardwaretor.com",
+  "name": "VSSOP-8_2.4x2.1mm_P0.5mm",
+  "image": "ipfs://QmfQUEG7XwpMFWssSaAax7mi5qxgwMydWkHVzyRHfzACMH",
+  "background_color": "#ffffff",
+  "attributes": [
+    {
+      "display_type": "string",
+      "trait_type": "Technology",
+      "value": "SMD"
+    },
+    {
+      "display_type": "string",
+      "trait_type": "3D Model",
+      "value": "ipfs://QmYZqoLFhjuJtGuRSH75E3Fi1o4JHtJuTeVarXJsimTPDg"
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Power",
+      "value": 5
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Price",
+      "value": 9
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Use",
+      "value": 9
+    }
+  ]
+}

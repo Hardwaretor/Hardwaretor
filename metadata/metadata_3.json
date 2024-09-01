@@ -1,0 +1,34 @@
+{
+  "description": "IR Receiver Vishay TSOP-xxxx MINIMOLD",
+  "external_url": "https://hardwaretor.com",
+  "name": "Vishay_MINIMOLD-3Pin",
+  "image": "ipfs://QmXVShczUdW544sr48nAjaJR9CPz8wY7sQu76UAXm31Vu3",
+  "background_color": "#ffffff",
+  "attributes": [
+    {
+      "display_type": "string",
+      "trait_type": "Technology",
+      "value": "THT"
+    },
+    {
+      "display_type": "string",
+      "trait_type": "3D Model",
+      "value": "ipfs://QmPp1VnVQ5Q3piHtNYHp7ULr8XJWuWBksduTGzYueBowxE"
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Power",
+      "value": 9
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Price",
+      "value": 3
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Use",
+      "value": 5
+    }
+  ]
+}

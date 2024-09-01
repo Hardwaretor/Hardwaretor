@@ -1,0 +1,34 @@
+{
+  "description": "SuperSOT-6 SSOT-6",
+  "external_url": "https://hardwaretor.com",
+  "name": "SuperSOT-6",
+  "image": "ipfs://QmRJSNejHfKrWPn1iDnT1aJ1sE37TpMQJQm21pdVXb13Gq",
+  "background_color": "#ffffff",
+  "attributes": [
+    {
+      "display_type": "string",
+      "trait_type": "Technology",
+      "value": "SMD"
+    },
+    {
+      "display_type": "string",
+      "trait_type": "3D Model",
+      "value": "ipfs://QmYXo9ufKzk6PEYLrkLoR2Hrda27aoy9YRWwwUTBXquQhn"
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Power",
+      "value": 7
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Price",
+      "value": 6
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Use",
+      "value": 7
+    }
+  ]
+}

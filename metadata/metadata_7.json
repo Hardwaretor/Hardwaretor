@@ -1,0 +1,39 @@
+{
+  "description": "Hirose U.FL Coaxial",
+  "external_url": "https://hardwaretor.com",
+  "name": "U.FL_Hirose_U.FL-R-SMT-1_Vertical",
+  "image": "ipfs://QmVFFGusvqapXb8kjMycNvDAnZCoRZKams7w8Ab4bxrwgT",
+  "background_color": "#ffffff",
+  "attributes": [
+    {
+      "display_type": "string",
+      "trait_type": "Technology",
+      "value": "SMD"
+    },
+    {
+      "display_type": "string",
+      "trait_type": "Color",
+      "value": "rose"
+    },
+    {
+      "display_type": "string",
+      "trait_type": "3D Model",
+      "value": "ipfs://QmVjrGqEBTAj8C82y7LcjxsZR1uzccEhcJzLiLWnmfErH2"
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Power",
+      "value": 7
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Price",
+      "value": 9
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Use",
+      "value": 10
+    }
+  ]
+}

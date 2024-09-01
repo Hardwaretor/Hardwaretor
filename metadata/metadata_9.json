@@ -1,0 +1,44 @@
+{
+  "description": "Resistor Axial_DIN0617 series Axial Horizontal pin pitch 25.4mm 2W length 17mm diameter 6mm",
+  "external_url": "https://hardwaretor.com",
+  "name": "R_Axial_DIN0617_L17.0mm_D6.0mm_P25.40mm_Horizontal",
+  "image": "ipfs://QmPMPG1eYhk4icwYqiYFFefBdVhYRJ11riRTvSEnaBdcJb",
+  "background_color": "#ffffff",
+  "attributes": [
+    {
+      "display_type": "string",
+      "trait_type": "Technology",
+      "value": "THT"
+    },
+    {
+      "display_type": "string",
+      "trait_type": "Orientation",
+      "value": "Horizontal"
+    },
+    {
+      "display_type": "string",
+      "trait_type": "Color",
+      "value": "pink"
+    },
+    {
+      "display_type": "string",
+      "trait_type": "3D Model",
+      "value": "ipfs://QmPinKfWx9LD6wPQgksemBPKaWyG4auNXtuBpY4D8ccio4"
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Power",
+      "value": 3
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Price",
+      "value": 8
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Use",
+      "value": 5
+    }
+  ]
+}

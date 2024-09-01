@@ -1,0 +1,52 @@
+{
+  "description": "Hardwaretor Component NFT - BatteryHolder_Keystone_107_1x23mm",
+  "external_url": "https://hardwaretor.com",
+  "name": "BatteryHolder_Keystone_107_1x23mm",
+  "image": "ipfs://QmaepobLdc7V73XAuLTqte9ZntTm85HJ3ZueWovUCEEG7w",
+  "background_color": "",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "BatteryHolder"
+    },
+    {
+      "trait_type": "Technology",
+      "value": "TRH"
+    },
+    {
+      "trait_type": "Brand",
+      "value": "Keystone"
+    },
+    {
+      "trait_type": "Reference",
+      "value": "107"
+    },
+    {
+      "trait_type": "Dimensions",
+      "value": "1x23mm"
+    },
+    {
+      "trait_type": "DataSheet",
+      "value": "http://www.keyelco.com/product-pdf.cfm?p=744"
+    },
+    {
+      "trait_type": "3D Model",
+      "value": "ipfs://QmeoUTzWHSGKGtm8hnyAqqp46nd1shfp1HHHMKym6UrDE3"
+    },
+    { 
+      "display_type": "boost_number", 
+      "trait_type": "Power", 
+      "value": 10 
+    },
+    { 
+      "display_type": "boost_number", 
+      "trait_type": "Price", 
+      "value": 6 
+    },
+    { 
+      "display_type": "boost_number", 
+      "trait_type": "Use", 
+      "value": 3
+    }
+  ]
+}

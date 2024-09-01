@@ -1,0 +1,376 @@
+[
+  {
+    "id": 0,
+    "name": "BatteryHolder_Keystone_107_1x23mm",
+    "image": "ipfs://QmaepobLdc7V73XAuLTqte9ZntTm85HJ3ZueWovUCEEG7w",
+    "external_url": "https://hardwaretor.com",
+    "modelPath": "/dmodels/BatteryHolder_Keystone_107_1x23mm.obj",
+    "description": "HardwaretorNFT - BatteryHolder_Keystone_107_1x23mm",
+    "attributes": [
+      {
+        "footprint": "BatteryHolder_Keystone_104_1x23mm",
+        "tag": "Keystone type 104 battery holder",
+        "tech": "through_hole",
+        "url": "http://www.keyelco.com/product-pdf.cfm?p=744",
+        "imagepath": "/compics/BatteryHolder_Keystone_107_1x23mm.jpg",
+        "modelipfs": "ipfs://QmeoUTzWHSGKGtm8hnyAqqp46nd1shfp1HHHMKym6UrDE3"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "BatteryHolder_MPD_BC2AAPC_2xAA",
+    "image": "ipfs://QmcdvztcxJoKK4cntTcm5Ap1z5uKCAi9fqR8z2K4JbVQmB",
+    "external_url": "https://hardwaretor.com",
+    "modelPath": "/dmodels/BatteryHolder_MPD_BC2AAPC_2xAA.obj",
+    "description": "HardwaretorNFT - BatteryHolder_MPD_BC2AAPC_2xAA",
+    "attributes": [
+      {
+        "footprint": "BatteryHolder_MPD_BC12AAPC_2xAA",
+        "tag": "AA battery cell holder",
+        "tech": "through_hole",
+        "url": "http://www.memoryprotectiondevices.com/datasheets/BC12AAPC-datasheet.pdf",
+        "imagepath": "/compics/BatteryHolder_MPD_BC2AAPC_2xAA.jpg",
+        "modelipfs": "ipfs://QmRPrhpbCSvtdCDB692m5DNJvr9sgjffYptxUfojTcbbTH"
+      }
+    ]
+
+  },
+  {
+    "id": 2,
+    "name": "CP_Radial_Tantal_D9.0mm_P5.00mm",
+    "image": "ipfs://QmeWLqwNzRCRmgD9pnZqnzVBhq3Kehc7d9oGebSfhiNoWV",
+    "external_url": "https://hardwaretor.com",
+    "modelPath": "/dmodels/CP_Radial_Tantal_D9.0mm_P5.00mm.obj",
+    "description": "HardwaretorNFT - CP_Radial_Tantal_D9.0mm_P5.00mm",
+    "attributes": [
+      {
+        "footprint": "CP_Radial_Tantal_D5.0mm_P5.00mm",
+        "tag": "CP Radial_Tantal series Radial pin pitch 5.00mm  diameter 5.0mm Tantal Electrolytic Capacitor",
+        "tech": "through_hole",
+        "url": "http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf",
+        "modelipfs": "ipfs://QmZPft9e5sZrMVrLgFTSE9546A7Zi1QSvF9gacfBKjWuNv",
+        "imagepath": "/compics/CP_Radial_Tantal_D9.0mm_P5.00mm.jpg"
+      }
+    ]
+
+  },
+  {
+    "id": 3,
+    "name": "C_2225_5664Metric",
+    "image": "ipfs://QmYx4H24mok1Vq8uC9oaiPWZnXV9QmZhAMtvMvtd58Pj67",
+    "external_url": "https://hardwaretor.com",
+    "modelPath": "/dmodels/C_2225_5664Metric.obj",
+    "description": "HardwaretorNFT - C_2225_5664Metric",
+    "attributes": [
+      {
+        "footprint": "C_2225_5664Metric",
+        "tag": "capacitor",
+        "tech": "smd",
+        "url": "http://datasheets.avx.com/AVX-HV_MLCC.pdf),",
+        "modelipfs": "ipfs://QmTQiHpP3JPmQB7jv96iGS2bL1nFSbGG3GgEM6dp3qHrsn",
+        "imagepath": "/compics/C_2225_5664Metric.jpg"
+      }
+    ]
+
+  },
+  {
+    "id": 4,
+    "name": "C_Axial_L17.0mm_D7.0mm_P25.00mm_Horizontal",
+    "image": "ipfs://QmVgFTzfUbT4Y6HK3cdQu23Qkv5UYxHzHBk58vCsJ9cPS5",
+    "external_url": "https://hardwaretor.com",
+    "modelPath": "/dmodels/C_Axial_L17.0mm_D7.0mm_P25.00mm_Horizontal.obj",
+    "description": "HardwaretorNFT - C_Axial_L17.0mm_D7.0mm_P25.00mm_Horizontal",
+    "attributes": [
+      {
+        "footprint": "C_Axial_L17.0mm_D6.5mm_P25.00mm_Horizontal",
+        "tag": "C Axial series Axial Horizontal pin pitch 25mm  length 17mm diameter 6.5mm",
+        "tech": "through_hole",
+        "url": "http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf",
+        "modelipfs": "ipfs://QmQ2FSPGxJjXtPmUo7stcDCuKHxargmrgdbv5Xrp5iHdz3",
+        "imagepath": "/compics/C_Axial_L17.0mm_D7.0mm_P25.00mm_Horizontal.jpg"
+      }
+    ]
+
+  },
+  {
+    "id": 5,
+    "name": "C_Axial_L3.8mm_D2.6mm_P12.50mm_Horizontal",
+    "image": "ipfs://QmZtqSMyLS7ZMuJN6WpYRN5d1KqrSjji9Jc8uBPxUaLnb6",
+    "external_url": "https://hardwaretor.com",
+    "modelPath": "/dmodels/C_Axial_L3.8mm_D2.6mm_P12.50mm_Horizontal.obj",
+    "description": "HardwaretorNFT - C_Axial_L3.8mm_D2.6mm_P12.50mm_Horizontal",
+    "attributes": [
+      {
+        "footprint": "C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal",
+        "tag": "C Axial series Axial Horizontal pin pitch 10mm  length 3.8mm diameter 2.6mm",
+        "tech": "through_hole",
+        "url": "http://www.vishay.com/docs/45231/arseries.pdf",
+        "modelipfs": "ipfs://QmaWdspGWcozjwJqe5bFuXjLEao8JTvEK9YcLUY7738oXn",
+        "imagepath": "/compics/C_Axial_L3.8mm_D2.6mm_P12.50mm_Horizontal.jpg"
+      }
+    ]
+
+  },
+  {
+    "id": 6,
+    "name": "C_Disc_D11.0mm_W5.0mm_P10.00mm",
+    "image": "ipfs://QmS5XdDoeJWLwQ7D9NceW1YzhdEZCPc78WBVPV3EMSjjZq",
+    "external_url": "https://hardwaretor.com",
+    "modelPath": "/dmodels/C_Disc_D11.0mm_W5.0mm_P10.00mm.obj",
+    "description": "HardwaretorNFT - C_Disc_D11.0mm_W5.0mm_P10.00mm",
+    "attributes": [
+      {
+        "footprint": "C_Disc_D11.0mm_W5.0mm_P10.00mm",
+        "tag": "C Disc series Radial pin pitch 10.00mm  diameter 11mm width 5.0mm Capacitor",
+        "tech": "through_hole",
+        "url": "http://www.vishay.com/docs/28535/vy2series.pdf",
+        "modelipfs": "ipfs://QmdUaHnGFeRU8FBYMmuvssTWavShpsc3hmTJ57ieJTYyXM",
+        "imagepath": "/compics/C_Disc_D11.0mm_W5.0mm_P10.00mm.jpg"
+      }
+    ]
+
+  },
+  {
+    "id": 7,
+    "name": "Crystal_Round_D2.0mm_Vertical",
+    "image": "ipfs://QmPkqq2opFkAijYMpy36vnoD8XPt8S4KZccYohRT33Kvyz",
+    "external_url": "https://hardwaretor.com",
+    "modelPath": "/dmodels/Crystal_Round_D2.0mm_Vertical.obj",
+    "description": "HardwaretorNFT - Crystal_Round_D2.0mm_Vertical",
+    "attributes": [
+      {
+        "footprint": "Crystal_Round_D2.0mm_Vertical",
+        "tag": "['DS26']",
+        "tech": "through_hole",
+        "url": "http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/DS-Series.pdf",
+        "modelipfs": "ipfs://QmTaSYRaMuysnSNVG2pyYTAKx5PAgwEYYGq1bz6Mj1FWvs",
+        "imagepath": "/compics/Crystal_Round_D2.0mm_Vertical.jpg"
+      }
+    ]
+
+  },
+  {
+    "id": 8,
+    "name": "Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm",
+    "image": "ipfs://QmPiJwkNaVAPeEhNsBKJ8Br65tH1X99nqHELWPYnwxWpbe",
+    "external_url": "https://hardwaretor.com",
+    "modelPath": "/dmodels/Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm.obj",
+    "description": "HardwaretorNFT - Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm",
+    "attributes": [
+      {
+        "footprint": "Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm",
+        "tag": "SMD SMT crystal",
+        "tech": "smd",
+        "url": "http://cdn-reichelt.de/documents/datenblatt/B400/MT.pdf,",
+        "modelipfs": "ipfs://QmTZrwFmck3DEhq9xAd3hHLLQiTR3HghtyQmjWxzXUS961",
+        "imagepath": "/compics/Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm.jpg"
+      }
+    ]
+
+  },
+  {
+    "id": 9,
+    "name": "Crystal_HC49-U_Horizontal",
+    "image": "ipfs://QmXG4BtgXKMdxbFSvQFsUfWm5P4dQnx9sJoKGy757Xrbrm",
+    "external_url": "https://hardwaretor.com",
+    "modelPath": "/dmodels/Crystal_HC49-U_Horizontal.obj",
+    "description": "HardwaretorNFT - Crystal_HC49-U_Horizontal",
+    "attributes": [
+      {
+        "footprint": "Crystal_HC49-U_Horizontal",
+        "tag": "THT crystal",
+        "tech": "through_hole",
+        "url": "http://5hertz.com/pdfs/04404_D.pdf",
+        "modelipfs": "ipfs://QmaxdwgMLFa7ZX7K4LzdSB79yxJvVdXFsM5HovtwvQbNKH",
+        "imagepath": "/compics/Crystal_HC49-U_Horizontal.jpg"
+      }
+    ]
+
+  },
+  {
+    "id": 10,
+    "name": "JST_EH_S10B-EH_1x10_P2.50mm_Horizontal",
+    "image": "ipfs://QmdYzLLPDvAdu8SW87C2gncqNq4xXsV5RnpteiFHqSeUjh",
+    "external_url": "https://hardwaretor.com",
+    "modelPath": "/dmodels/JST_EH_S10B-EH_1x10_P2.50mm_Horizontal.obj",
+    "description": "HardwaretorNFT - JST_EH_S10B-EH_1x10_P2.50mm_Horizontal",
+    "attributes": [
+      {
+        "footprint": "JST_EH_S10B-EH_1x10_P2.50mm_Horizontal",
+        "tag": "connector JST EH top entry",
+        "tech": "through_hole",
+        "url": "http://www.jst-mfg.com/product/pdf/eng/eEH.pdf),",
+        "modelipfs": "ipfs://QmYcr7QJbHVMcLHWDEE9AwrFjjqFRNwaQRhcGpVpb65xzu",
+        "imagepath": "/compics/JST_EH_S10B-EH_1x10_P2.50mm_Horizontal.jpg"
+      }
+    ]
+
+  },
+  {
+    "id": 11,
+    "name": "LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm",
+    "image": "ipfs://QmRusTKDRkYPyc9TybNBBkR4ec3XvX1M4aYkUsWCcWxuNt",
+    "external_url": "https://hardwaretor.com",
+    "modelPath": "/dmodels/LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm.obj",
+    "description": "HardwaretorNFT - LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm",
+    "attributes": [
+      {
+        "footprint": "LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm",
+        "tag": "LQFP QFP",
+        "tech": "smd",
+        "url": "http://www.analog.com/media/en/technical-documentation/data-sheets/LTC7810.pdf),",
+        "modelipfs": "ipfs://QmQtBT3MnC85tkLTYzFz94yLhH1ycJw3XPSA6kn8H4Za6g",
+        "imagepath": "/compics/LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm.jpg"
+      }
+    ]
+
+  },
+  {
+    "id": 12,
+    "name": "PhoenixContact_GMSTBVA_2,5_9-G_1x09_P7.50mm_Vertical",
+    "image": "ipfs://QmWW2PaV4cJXZZukssPWBKFG1XpbXGkJXaxdkAPYFi5U3Y",
+    "external_url": "https://hardwaretor.com",
+    "modelPath": "/dmodels/PhoenixContact_GMSTBVA_2,5_9-G_1x09_P7.50mm_Vertical.obj",
+    "description": "HardwaretorNFT - PhoenixContact_GMSTBVA_2,5_9-G_1x09_P7.50mm_Vertical",
+    "attributes": [
+      {
+        "footprint": "PhoenixContact_GMSTBVA_2,5_2-G_1x02_P7.50mm_Vertical",
+        "tag": "phoenix_contact connector GMSTBVA_01x02_G_7.50mm",
+        "tech": "through_hole",
+        "url": "",
+        "modelipfs": "ipfs://QmQbAPuy3AyuxooU3ae8G7yiaGs8FaNoFZzMokmborgg5a",
+        "imagepath": "/compics/PhoenixContact_GMSTBVA_2,5_9-G_1x09_P7.50mm_Vertical.jpg"
+      }
+    ]
+
+  },
+  {
+    "id": 13,
+    "name": "PinHeader_1x33_P2.00mm_Vertical_SMD_Pin1Left",
+    "image": "ipfs://QmNT5viLfEjhbkcgHG2hM4va8q5oCAXhA9rUT2LqWzqVee",
+    "external_url": "https://hardwaretor.com",
+    "modelPath": "/dmodels/PinHeader_1x33_P2.00mm_Vertical_SMD_Pin1Left.obj",
+    "description": "HardwaretorNFT - PinHeader_1x33_P2.00mm_Vertical_SMD_Pin1Left",
+    "attributes": [
+      {
+        "footprint": "PinHeader_1x02_P2.00mm_Vertical_SMD_Pin1Left",
+        "tag": "Surface mounted pin header SMD 1x02 2.00mm single row style1 pin1 left",
+        "tech": "smd",
+        "url": "",
+        "modelipfs": "ipfs://QmWWsCUSzMQEXbDKUq8vnZVXumueVN8wuP6FNJbVWLFJN5",
+        "imagepath": "/compics/PinHeader_1x33_P2.00mm_Vertical_SMD_Pin1Left.jpg"
+      }
+    ]
+
+  },
+  {
+    "id": 14,
+    "name": "PinSocket_1x14_P1.27mm_Vertical",
+    "image": "ipfs://QmYAvQwMyJy2WYnJuSWSrn5Sfq5ETo3CamyjQLrVFUv4yt",
+    "external_url": "https://hardwaretor.com",
+    "modelPath": "/dmodels/PinSocket_1x14_P1.27mm_Vertical.obj",
+    "description": "HardwaretorNFT - PinSocket_1x14_P1.27mm_Vertical",
+    "attributes": [
+      {
+        "footprint": "PinSocket_1x01_P1.27mm_Vertical",
+        "tag": "Through hole socket strip THT 1x01 1.27mm single row",
+        "tech": "through_hole",
+        "url": "",
+        "modelipfs": "ipfs://QmWEHYd3hcnrRjtxeQrZi9AmFvZyFV4qqwqR2qCaCzk1vR",
+        "imagepath": "/compics/PinSocket_1x14_P1.27mm_Vertical.jpg"
+      }
+    ]
+
+  },
+  {
+    "id": 15,
+    "name": "STK672-040-E",
+    "image": "ipfs://QmNTCKbusj9CwhNepPNPDJdCyn9ExqGDYiyVeR4jVoCYs1",
+    "external_url": "https://hardwaretor.com",
+    "modelPath": "/dmodels/STK672-040-E.obj",
+    "description": "HardwaretorNFT - STK672-040-E",
+    "attributes": [
+      {
+        "footprint": "STK672-040-E",
+        "tag": "SIP-22",
+        "tech": "through_hole",
+        "url": "http://www.onsemi.com/pub_link/Collateral/EN5227-D.PDF)",
+        "modelipfs": "ipfs://QmXiuWLXrnUJevvH7z7xHDf5eMFMH3LFHMcmH9u3vQ2Po2",
+        "imagepath": "/compics/STK672-040-E.jpg"
+      }
+    ]
+
+  },
+  {
+    "id": 16,
+    "name": "ST_PowerSSO-36_SlugDown",
+    "image": "ipfs://QmcbAhh1SYX4ER7n6j84HKjfM7RcYBvx5Z5A4UZgaxFLWn",
+    "external_url": "https://hardwaretor.com",
+    "modelPath": "/dmodels/ST_PowerSSO-36_SlugDown.obj",
+    "description": "HardwaretorNFT - ST_PowerSSO-36_SlugDown",
+    "attributes": [
+      {
+        "footprint": "ST_PowerSSO-36_SlugDown",
+        "tag": "ST PowerSSO-36 1EP 7.5x10.3mm Pitch 0.8mm",
+        "tech": "smd",
+        "url": "http://www.st.com/resource/en/datasheet/tda7492p.pdf,",
+        "modelipfs": "ipfs://QmavaHZuPFkiwcYC7YMSkigCBt9akzVQRjyvHjFv2pYniY",
+        "imagepath": "/compics/ST_PowerSSO-36_SlugDown.jpg"
+      }
+    ]
+
+  },
+  {
+    "id": 17,
+    "name": "WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm",
+    "image": "ipfs://QmeFFE1eXZuGLE2NUHCAufQu54khb171LuD7Qbcj2aAPDg",
+    "external_url": "https://hardwaretor.com",
+    "modelPath": "/dmodels/WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.obj",
+    "description": "HardwaretorNFT - WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm",
+    "attributes": [
+      {
+        "footprint": "DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm",
+        "tag": "DFN 0.65",
+        "tech": "smd",
+        "url": "",
+        "modelipfs": "ipfs://QmRDG5yWqdmHWw9MmQE6x1cDXjPiD4CZhFNb5x6VnZaC3h",
+        "imagepath": "/compics/WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.jpg"
+      }
+    ]
+
+  },
+  {
+    "id": 18,
+    "name": "Xtal-3_2x2_5",
+    "image": "ipfs://QmeJXbSmJCFVDuHa1t2y3JQMUHfzxQMBVDq5rj1BoGNrSp",
+    "external_url": "https://hardwaretor.com",
+    "modelPath": "/dmodels/Xtal-3_2x2_5.obj",
+    "description": "HardwaretorNFT - Xtal-3_2x2_5",
+    "attributes": [
+      {
+    "modelipfs": "ipfs://QmWiueZgE9h6EdGiMAA6rWcDoCvsCD4EpgufDzp2bGbeG9",
+    "imagepath": "/compics/Xtal-3_2x2_5.jpg"
+      }
+    ]
+
+  },
+  {
+    "id": 19,
+    "name": "wemos_d1_mini_light",
+    "image": "ipfs://Qmb24jx8R8cBGXLkiubW6jtjJtdxRhhMgABCoDR3zZBzai",
+    "external_url": "https://hardwaretor.com",
+    "modelPath": "/dmodels/wemos_d1_mini_light.obj",
+    "description": "HardwaretorNFT - wemos_d1_mini_light",
+    "attributes": [
+      {
+        "footprint": "WEMOS_D1_mini_light",
+        "tag": "ESP8266 WiFi microcontroller",
+        "tech": "through_hole",
+        "url": "https://wiki.wemos.cc/products:d1:d1_mini,",
+        "modelipfs": "ipfs://QmXFpJYUfh8AVC4U2NX3hN6tSxoBLYQe3fsChn2aeosz1E",
+        "imagepath": "/compics/wemos_d1_mini_light.jpg"
+      }
+    ]
+  }
+]

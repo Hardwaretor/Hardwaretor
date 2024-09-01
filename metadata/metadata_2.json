@@ -1,0 +1,39 @@
+{
+  "description": "Micro SD",
+  "external_url": "https://hardwaretor.com",
+  "name": "microSD_HC_Hirose_DM3D-SF",
+  "image": "ipfs://QmQMYqcRzkRwkJffvfo4vq5NakHteSJqHNwYNAhFVUn7eF",
+  "background_color": "#ffffff",
+  "attributes": [
+    {
+      "display_type": "string",
+      "trait_type": "Technology",
+      "value": "SMD"
+    },
+    {
+      "display_type": "string",
+      "trait_type": "Color",
+      "value": "rose"
+    },
+    {
+      "display_type": "string",
+      "trait_type": "3D Model",
+      "value": "ipfs://QmNmbd6Q1E6ufc2Szajr6iNkisj6mFEzMV8CzUQVmFwd2w"
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Power",
+      "value": 8
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Price",
+      "value": 9
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Use",
+      "value": 2
+    }
+  ]
+}
