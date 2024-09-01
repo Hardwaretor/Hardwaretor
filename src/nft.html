@@ -5,18 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="AI Generative Hardware Designer.">
+    content="AI Generative Hardware Designer. Adding a Geometrical Constraints 3D + Net List File, you'll receive an approximated preliminary electronic layout. In adition enjoy the multiple tools like intuitive and versatile geometry generation, integrated PLM, BOMs and DataPackage generation, auctions supplier room... Every results must be checked by an expert. Hardwaretor.com is not responsible about possible damages!!">
   <meta name="keywords" content="IA, AI, Hardware, E-CAD, PCB, PCBA, Layout, Electronic,">
   <meta name="author" content="Guillermo Galindo">
   <meta name="theme-color" content="#764ABC" />
-  <title>Hardwaretor</title>
+  <title>HardwaretorNFT</title>
   <link rel="icon" type="image/x-icon" href="/public/icon.png">
-  <link rel="stylesheet" href="/public/styleLogin.css">
+  <link rel="stylesheet" href="/public/style.css">
   <link rel="manifest" href="/public/pwa.webmanifest">
   <link rel="manifest" href="/public/status.js">
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.4-rc.1/web3.min.js"></script>
-
 
   <script>
     const token = localStorage.getItem('token');
@@ -27,7 +24,29 @@
 
 <body>
 
-  <div id="popup-container">
+
+  <div id="canvas2">
+
+    <style>  canvas {
+
+      width: 100% !important;
+      height: 100% !important;
+      position: fixed;
+      z-index: 10000;
+  
+    }
+
+  </style> 
+
+    <script type="text/javascript" src="/js/three.js"></script>
+    <script type="text/javascript" src="/js/OrbitControls.js"></script>
+    <script type="text/javascript" src="/js/OBJLoader.js"></script>
+    <script type="text/javascript" src="/js/MTLLoader.js"></script>
+    <script type="text/javascript" src="/js/nft.js"></script>
+
+  </div>
+
+  <div id="popup-container" >
 
 
     <section>
@@ -1413,137 +1432,10 @@
         <div class="random-bg"></div>
       </span>
 
-    </div>
 
-      <div class="signin">
-        <div class="content">
-
-          <h2 id="textoCambiante" style="margin-top: 8%; margin-bottom: -4%;">WELCOME TO HARDWARETOR!</h2>
-
-          <div class="columns">
-
-            <div class="column">
-
-              <h6>
-                AI Generative Hardware Designer. Adding a Geometrical Constraints 3D + Net List File, you'll receive an
-                approximated preliminary electronic layout. In adition enjoy the multiple tools like intuitive and
-                versatile
-                geometry generation, integrated PLM,
-                BOMs and DataPackage generation,...</h6>
-
-              <div style="margin-left: 50%;" class="links"> <a href=/public/whitepaper.pdf>Whitepaper</a></div>
-
-              <img src="/public/vr.png" alt="Descripción de la imagen" style="width: 130%; margin-left: -10%;">
-    
-            </div>
-
-            <div class="column">
-                  <div class="login-icon">
-                    <a href="https://app.uniswap.org/explore/pools/ethereum/0xA09f6f541dEd0EC8B6127F1Ed236036613D81bCA">
-                    <img class="login-icon" src="/public/uniswap.png"alt="Uniswap">
-                    </a>
-                  </div>
-
-                  <div class="login-icon">
-                    <a href="https://opensea.io/Hardwaretor">
-                    <img class="login-icon" src="/public/opensea.png"alt="OpenSea">
-                    </a>
-                  </div>
-
-                  <div class="login-icon">
-                    <a href="https://etherscan.io/token/0xf7bece35f6ae10343f859bc0196ee418f6300168?a=0x62c9cfc659d547d83313bb69a89ba3a53e53f82c">
-                    <img class="login-icon" src="/public/etherscan-logo.png" alt="HAW ERC20">
-                    </a>
-                  </div>
-
-                  <div class="login-icon">
-                    <a href="https://apespace.io/eth/0x63ec86fc38a0021fcf4980ada380ff82c7859788">
-                    <img class="login-icon" src="/public/gorila.png" alt="ApeSpace">
-                    </a>
-                  </div>
-
-                  <div class="login-icon">
-                    <a href="https://medium.com/@guillermogs19/hardwaretor-com-is-launchig-demo-65b4e189aef7">
-                    <img class="login-icon" src="/public/medium.png" style=" background-color: aliceblue;" alt="GeckoTerminal">
-                    </a>
-                  </div>
-            </div>
-
-            <div class="column" >
-                <div class="login-icon">
-                  <a href="https://www.facebook.com/share/p/Z7jDnSfS1KwTMFBz/">
-                  <img class="login-icon" src="/public/facebook.png"  alt="Facebook">
-                  </a>
-                </div>
-
-                <div class="login-icon">
-                  <a href="https://x.com/Hardweratorcom">
-                  <img class="login-icon" src="/public/x.png" alt="X">
-                  </a>
-                </div>
-
-                <div class="login-icon">
-                  <a href="https://t.me/hardwaretor_bot">
-                  <img class="login-icon" src="/public/telegram.png" alt="Telegram">
-                  </a>
-                </div>
-
-                <div class="login-icon">
-                  <a href="https://www.geckoterminal.com/eth/pools/0xa09f6f541ded0ec8b6127f1ed236036613d81bca">
-                  <img class="login-icon" src="/public/geckoterminal.png" alt="GeckoTerminal">
-                  </a>
-                </div>
-
-                <div class="login-icon">
-                  <a href="https://www.linkedin.com/company/hardwaretor">
-                  <img class="login-icon" src="/public/linkedin.png" alt="GeckoTerminal">
-                  </a>
-                </div>
-          </div>
-
-            <div class="column" >
-              <h3 style="margin-left: 40%;">Sign In</h3>
-              <div class="form">
-                <div class="inputBox">
-                  <input type="email" id="email" name="email" required> <i>Username</i>
-                </div>
-                <div class="inputBox">
-                  <input type="password" id="password" name="password" required> <i>Password</i>
-                </div>
-                <div class="links"> <a href=mailto:“disha@uplers.com”>Forgot Password</a> <a href="/signup">Signup</a>
-                </div>
-                <div class="inputBox">
-                  <input type="submit" value="Login" onclick="login()">
-                  <input id="connectButton" type="submit" value="Connect Wallet" onclick="connectToNetwork('Ethereum');">
-                  <div class="telegram">
-                    <script async src="https://telegram.org/js/telegram-widget.js?3"
-                      data-telegram-login="Hardwaretor_bot" data-size="large" data-radius="10"
-                      data-auth-url="https://hardwaretor.com"></script>
-                  </div>
-                </div>
-
-                <div id="myModal" class="modal">
-                  <div class="modal-content">
-                    <span class="close" onclick="closeModal()">&times;</span>
-                    <h2>Select Network</h2>
-                    <div class="network-icons">
-
-
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section>
+  </section>
 
   </div>
-
-  <script type="text/javascript" src="/js/login.js"></script>
 
 </body>
 

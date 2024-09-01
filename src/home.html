@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="AI Generative Hardware Designer.">
+  <meta name="keywords" content="IA, AI, Hardware, E-CAD, PCB, PCBA, Layout, Electronic,">
+  <meta name="author" content="Guillermo Galindo">
+  <meta name="theme-color" content="#764ABC" />
+  <title>Hardwaretor</title>
+  <link rel="icon" type="image/x-icon" href="/public/icon.png">
+  <link rel="stylesheet" href="/public/style.css">
+  <link rel="manifest" href="/public/pwa.webmanifest">
+  <link rel="manifest" href="/public/status.js">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.3/socket.io.min.js"></script>
+</head>
+
+<body>
+
+  <h1 id="currentproject">Cargando...</h1>
+
+  <div id="toolbar">
+    <div class="toolbar-button" onclick="createTrack()">
+      <i class="fas fa-cube"><img class="icontool" src="/public/components_gallery.png" alt="Components Gallery"></i>
+    </div>
+    <div class="toolbar-button" onclick="createTrack()">
+      <i class="fas fa-cube"><img class="icontool" src="/public/create.webp" alt="Create Project"></i>
+    </div>
+    <div class="toolbar-button" onclick="transformGeometry()">
+      <i class="fas fa-paint-roller"><img class="icontool" src="/public/open.webp" alt="Open Project"></i>
+    </div>
+    <div class="toolbar-button" onclick="transformGeometry()">
+      <i class="fas fa-list"><img class="icontool" src="/public/save.webp" alt="Save Project"></i>
+    </div>
+    <div id="close-button1" onclick="closeToolbar()">
+      <i class="fas fa-times"><img class="icontool" src="/public/close.png" alt="Component List Icon"></i>
+    </div>
+  </div>
+
+  <div id="toolbar2">
+
+    <div id="close-button2" onclick="closeToolbar2()">
+      <i class="fas fa-times"><img class="icontool" src="/public/close.png" alt="Component List Icon"></i>
+    </div>
+    <div class="toolbar-button" onclick="createText()">
+      <i class="fas fa-file-pdf"><img class="icontool" src="/public/ctext.webp" alt="Component List Icon"></i>
+    </div>
+    <div class="toolbar-button" onclick="createLine()">
+      <i class="fas fa-file-upload"><img class="icontool" src="/public/cline.webp" alt="Component List Icon"></i>
+    </div>
+    <div class="toolbar-button" onclick="uploadFile('.obj')">
+      <i class="fas fa-cube"><img class="icontool" src="/public/csquare.webp" alt="Component List Icon"></i>
+    </div>
+    <div class="toolbar-button" onclick="createCube()">
+      <i class="fas fa-paint-roller"><img class="icontool" src="/public/ccubo.webp" alt="Component List Icon"></i>
+    </div>
+    <div class="toolbar-button" onclick="createCilinder()">
+      <i class="fas fa-list"><img class="icontool" src="/public/ccilindro.webp" alt="Component List Icon"></i>
+    </div>
+    <div class="toolbar-button" onclick="createSphere()">
+      <i class="fas fa-network-wired"><img class="icontool" src="/public/cesfera.webp" alt="Component List Icon"></i>
+    </div>
+    <div class="toolbar-button" onclick="createCone()">
+      <i class="fas fa-file-alt"><img class="icontool" src="/public/ccone.webp" alt="Component List Icon"></i>
+    </div>
+    <div class="toolbar-button" onclick="extrudeLine()">
+      <i class="fas fa-file-alt"><img class="icontool" src="/public/extrude.webp" alt="Component List Icon"></i>
+    </div>
+    <div class="toolbar-button" onclick="extrudePath()">
+      <i class="fas fa-file-alt"><img class="icontool" src="/public/extrudec.webp" alt="Component List Icon"></i>
+    </div>
+    <div class="toolbar-button" onclick="createTrack()">
+      <i class="fas fa-cube"><img class="icontool" src="/public/ctrack.webp" alt="Create Track"></i>
+    </div>
+    <div class="toolbar-button" onclick="medir()">
+      <i class="fas fa-file-upload"><img class="icontool" src="/public/medir.webp" alt="Component List Icon"
+          tag="Measure"></i>
+    </div>
+    <div class="toolbar-button" onclick="uploadFile('.net')">
+      <i class="fas fa-network-wired"><img class="icontool" src="/public/grid.webp" alt="Component List Icon"></i>
+    </div>
+    <div class="toolbar-button" onclick="uploadFile('.gbr')">
+      <i class="fas fa-file-alt"><img class="icontool" src="/public/thermal.webp" alt="Component List Icon"></i>
+    </div>
+    <div class="toolbar-button" onclick="uploadFile('.pdf')">
+      <i class="fas fa-file-pdf"><img class="icontool" src="/public/gdt.webp" alt="Component List Icon"></i>
+    </div>
+
+  </div>
+
+  <div id="toolbar3">
+
+    <div class="toolbar-button" onclick="saveAsImage()">
+      <i class="fas fa-file-upload"><img class="icontool" src="/public/jpg.png" alt="Component List Icon"></i>
+    </div>
+    <div class="toolbar-button" onclick="">
+      <i class="fas fa-cube"><img class="icontool" src="/public/dxf.png" alt="Component List Icon"></i>
+    </div>
+    <div class="toolbar-button" onclick="uploadFile('.mtl')">
+      <i class="fas fa-paint-roller"><img class="icontool" src="/public/obj.png" alt="Component List Icon"></i>
+    </div>
+    <div class="toolbar-button" onclick="uploadFile('.cmp')">
+      <i class="fas fa-list"><img class="icontool" src="/public/cmp.png" alt="Component List Icon"></i>
+    </div>
+    <div class="toolbar-button" onclick="uploadFile('.net')">
+      <i class="fas fa-network-wired"><img class="icontool" src="/public/net.png" alt="Component List Icon"></i>
+    </div>
+    <div class="toolbar-button" onclick="uploadFile('.gbr')">
+      <i class="fas fa-file-alt"><img class="icontool" src="/public/gbr.png" alt="Component List Icon"></i>
+    </div>
+    <div class="toolbar-button" onclick="uploadFile('.pdf')">
+      <i class="fas fa-file-pdf"><img class="icontool" src="/public/pdf.png" alt="Component List Icon"></i>
+    </div>
+
+    <div id="close-button3" onclick="closeToolbar3()">
+      <i class="fas fa-times"><img class="icontool" src="/public/close.png" alt="Component List Icon"></i>
+    </div>
+  </div>
+
+  <div id="toolbar4">
+
+    <div class="toolbar-button" onclick="openWalletModal()">
+      <i class="fas fa-file-upload"><img class="icontool" src="/public/wallet.webp" alt="Wallet" tag="Wallet"></i>
+    </div>
+    <div class="toolbar-button" onclick="openUserModal()">
+      <i class="fas fa-cube"><img class="icontool" src="/public/user.webp" alt="User" tag="User"></i>
+    </div>
+    <div class="toolbar-button" onclick="openCloudModal()">
+      <i class="fas fa-paint-roller"><img class="icontool" src="/public/cloud.webp" alt="Cloud" tag="Cloud"></i></i>
+    </div>
+
+    <div id="close-button4" onclick="closeToolbar4()">
+      <i class="fas fa-times"><img class="icontool" src="/public/close.png" alt="Component List Icon"
+          tag="close"></i></i>
+    </div>
+  </div>
+
+  <div id="sidebar-container">
+    <div id="component-container">
+
+      <div class="news-item">
+        <img src="/public/AIdesigner.webp" alt="Imagen de la noticia" class="news-image">
+        <h2 class="news-header">AI Generative Electronic Designer </h2>
+        <p class="news-summary">
+          In the field of electronic design, this capability
+          becomes particularly useful. An AI
+          Generative Electronic Designer can analyze
+          electronic components and three-dimensional
+          circuits, optimizing their layout and design.
+          For example, it can generate 3D printed
+          circuit board (PCB) designs, proposing new configurations that maximize space efficiency,
+          minimize interference, and optimize current flow.
+          Moreover, the AI can create virtual prototypes that allow engineers to visualize and simulate the
+          behavior of electronic components in a 3D environment before proceeding with physical
+          manufacturing. This not only accelerates the design process but also reduces errors and costs by
+          eliminating the need for multiple physical iterations..</p>
+    </div>
+
+      <div class="news-item">
+        <img src="/public/token-launch.webp" alt="Imagen de la noticia" class="news-image">
+        <h2 class="news-header">HAW Native token launched</h2>
+        <p class="news-summary">Hardwaretor Native token is launchet at Ethereum Mainnet, your Computing Power uding our AI Technoogy will depend about your Staked HAW Balances.</p>
+    </div>
+
+    <div class="news-item">
+      <img src="/public/generative.webp" alt="Imagen de la noticia" class="news-image">
+      <h2 class="news-header"> Unlocking Full Software Functionality </h2>
+      <p class="news-summary">
+        In the realm of electronic design, this AI capability is particularly powerful. The AI Generative
+        Electronic Designer can analyze electronic components and 3D circuits, optimizing layouts and
+        designs. For example, it can generate 3D printed circuit board (PCB) designs, proposing innovative
+        configurations that maximize space efficiency, minimize interference, and optimize current flow.
+        The experience is further enhanced by the integration of NFTs and the HAW token. Users who hold
+        at least one NFT in their wallet gain access to the full range of functionalities offered by the
+        software, including advanced design tools, exclusive virtual prototypes, and the ability to simulate
+        the behavior of electronic components in a 3D environment before moving to physical
+        manufacturing.
+        Moreover, the HAW token, with a maximum supply of 500 million, plays a crucial role in this
+        ecosystem. The computational power available to users when utilizing the AI is directly tied to the
+        amount of HAW tokens they have staked in their wallet. The more HAW tokens staked, the greater
+        the computational resources allocated, allowing for more complex and faster generative processes.
+        This staking mechanism not only incentivizes participation but also ensures a balanced distribution
+        of computational power across the network.</p>
+  </div>
+
+    <div class="news-item">
+      <img src="/public/NFTgallery.webp" alt="Imagen de la noticia" class="news-image">
+      <h2 class="news-header">Available NFT Gallery</h2>
+      <p class="news-summary">Available our NFT Gallery at Opensea, remember you should have in your wallet at least one of our NFT for the completely utilization in our platform</p>
+  </div>
+
+  <div class="news-item">
+    <img src="/public/Pool.webp" alt="Imagen de la noticia" class="news-image">
+    <h2 class="news-header">Computing Pool is Working</h2>
+    <p class="news-summary">Our AI technology is feeding with a powerful users cloud. Passive rewards earn while your HAW tokens are doing the work for you.  </p>
+</div>
+
+<div class="news-item">
+  <img src="/public/roadmap.webp" alt="Imagen de la noticia" class="news-image">
+  <h2 class="news-header">Integration of Technologies to Optimize</h2>
+  <p class="news-summary">2025
+    Q1-Q2:
+    Research and Evaluation:
+    Evaluate emerging technologies in IA Designer and Cloud Computing for integration into the
+    design process.
+    Research and select AI platforms and cloud computing tools that are compatible with the project
+    objectives.
+    Q3-Q4:
+    Initial Implementation:
+    Introduce IA Designer into the design process to explore the generation of creative and optimized
+    solutions.
+    Configure Cloud Computing infrastructure to facilitate collaboration and large-scale data
+    processing.
+    2026
+    Q1-Q2:
+    Capacity Development:
+    Train the team in the effective use of IA Designer and cloud resource management.
+    Explore applications of Thermal in design to improve thermal management of systems.
+    Q3-Q4:
+    Pilots and Tests:
+    Conduct design pilots using AI Designer and thermal analysis to evaluate their impact on process
+    efficiency.
+    Integrate Blockchain into design data management to improve security and traceability.2027
+    Q1-Q2:
+    Continuous Optimization:
+    Refine AI Designer models using data collected during pilots to improve the accuracy and quality
+    of design suggestions.
+    Implement Blockchain-based solutions to guarantee the authenticity of datasheets and the integrity
+    of components.
+    Q3-Q4:
+    Scalability and Efficiency:
+    Expand Cloud Computing infrastructure to meet growing demands for data processing and
+    simulations.
+    Automate the generation of quotations and footprint management to improve efficiency in the
+    production phase.
+    2028
+    Q1-Q2:
+    Standardization and Continuous Improvement:
+    Establish design standards based on GD&T and stack up to ensure dimensional accuracy in all
+    products.
+    Implement PLM tools to centralize product lifecycle management and improve collaboration
+    between teams.
+    Q3-Q4:
+    Validation and Optimization:
+    Develop a virtual lab to perform virtual design tests and optimize systems before physical
+    production.
+    Explore generative tools to automate repetitive design tasks and free up resources for innovation.2029-2030
+    Q1-Q4:
+    Expansion and Consolidation:
+    Expand the integration of design technologies across all business units and projects.
+    Continue research and development of</p>
+</div>
+    </div>
+    <button id="toggle-button">⮞</button>
+</div>
+
+  </div>
+
+  <div id="gui-panel">
+    <button id="toggle-button2">⮞</button>
+    <div id="gui-container"></div>
+    
+</div>
+
+  <div id="dialog-box-container">
+
+    <div id="log"></div>
+
+  </div>
+
+  <div id="dialog">
+    <label for="text-input">Enter text:</label>
+    <input type="text" id="text-input">
+    <button id="submit-btn">Submit</button>
+  </div>
+
+  <div id="canvas-container">
+    <script type="text/javascript" src="/js/dat.gui.js"></script>
+    <script type="text/javascript" src="/js/three.js"></script>
+    <script type="text/javascript" src="/js/dxf-parser.js"></script>
+    <script type="text/javascript" src="/js/OrbitControls.js"></script>
+    <script type="text/javascript" src="/js/OBJLoader.js"></script>
+    <script type="text/javascript" src="/js/MTLLoader.js"></script>
+    <script type="module" src="/js/three.module.js"></script>
+    <script type="text/javascript" src="/js/TransformControls.js"></script>
+    <script type="module" src="/js/CSS2DRenderer.js"></script>
+    <script type="text/javascript" src="/js/yuka.js"></script>
+    <script type="text/javascript" src="/js/home.js"></script>
+  </div>
+
+  <div id="walletModal" class="modal">
+    <div class="modal-content-wallet">
+      <span class="close" onclick="closeWalletModal()">&times;</span>
+      <div class="modal-text">Wallet</div>
+
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+      <div class="columns">
+        <div class="column">
+          <h3>Token Balances</h3>
+          <div class="chart">
+            <canvas id="balancesPowerChart"></canvas>
+          </div>
+        </div>
+
+        <div class="column">
+          <h3>Token Staked</h3>
+          <div class="chart">
+            <canvas id="stakedPowerChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="column">
+          <h3>Components NFT</h3>
+          <div class="chart">
+            <ul id="nftComponents"></ul>
+          </div>
+        </div>
+
+        <div class="column">
+          <h3>IA Computing Power</h3>
+          <div class="chart">
+            <canvas id="cloudPowerChart"></canvas>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  <!-- Ventana Modal de Usuario -->
+  <div id="userModal" class="modal">
+    <div class="modal-content-wallet">
+      <span class="close" onclick="closeUserModal()">&times;</span>
+      <div class="modal-text">User</div>
+      <div class="columns">
+
+        <div class="column">
+          <div class="card">
+            <h3>Photo</h3>
+            <div id="user-photo" class="user-photo"></div>
+
+            <h3>User Data</h3>
+            <ul id="user-data"></ul>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <h3>Projects</h3>
+            <ul id="user-projects"></ul>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <h3>IA Computing Pools</h3>
+            <ul id="user-pools"></ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="cloudModal" class="modal">
+    <div class="modal-content-wallet">
+      <span class="close" onclick="closeCloudModal()">&times;</span>
+
+      <div class="modal-text">IA Cloud</div>
+      <div class="columns">
+
+        <div class="column">
+          <div class="card">
+            <button type="submit" onclick="conectDevice()"><h2>My Devices</h2></button>
+            <ul id="user-devices"></ul>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <button type="submit" onclick="createPool()"><h2>Connected Devices</h2></button>
+            <ul id="connected-devices"></ul>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+              <button type="submit" onclick="createPool()"><h2>IA Computing Pools</h2></button>
+            <ul id="computing-pools"></ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
