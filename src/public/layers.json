@@ -1,0 +1,45 @@
+{
+    "layers": {
+      "layer": [
+        {
+          "name": "Finishing-Layer 1",
+          "drawing": "/public/model.dxf",
+          "object": "SHAPE_8356"
+        },
+        {
+            "name": "Silkscreen-Layer 2",
+            "drawing": "/public/model.dxf"
+          },
+          {
+            "name": "SolderMask-Layer 3",
+            "drawing": "/public/model.dxf"
+          },
+          {
+            "name": "Copper1-Layer 4",
+            "drawing": "/public/model.dxf"
+          },
+          {
+            "name": "Dielectric1-Layer 5",
+            "drawing": "/public/model.dxf"
+          },
+          {
+            "name": "Core-Layer 7",
+            "drawing": "/public/model.dxf"
+          },
+          {
+            "name": "Dielectric2-Layer 8",
+            "drawing": "/public/model.dxf"
+          },
+          {
+            "name": "Copper2-Layer 9",
+            "drawing": "/public/model.dxf"
+          },
+          {
+            "name": "SolderMask-Layer10",
+            "drawing": "/public/model.dxf"
+          }
+
+
+    ]
+}
+}

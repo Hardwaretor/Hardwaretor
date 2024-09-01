@@ -1,0 +1,296 @@
+{
+    "devices": [
+      {
+        "nickname": "test",
+        "name": "Arduino UNO",
+        "description": "Arduino UNO is a popular microcontroller board based on the ATmega328P.",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART",
+          "Servo motor control"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "Arduino Leonardo",
+        "description": "Arduino Leonardo features the ATmega32u4 microcontroller and has built-in USB communication.",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART",
+          "USB HID support"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "Arduino MEGA",
+        "description": "Arduino MEGA is based on the ATmega2560 microcontroller and provides more IO pins and memory compared to Arduino UNO.",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART",
+          "Servo motor control"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "Arduino FIO",
+        "description": "Arduino FIO is designed for wireless communication using XBee modules.",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART",
+          "XBee compatibility"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "Arduino Pro",
+        "description": "Arduino Pro is a compact and low-power version of Arduino boards.",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "Arduino Pro Mini",
+        "description": "Arduino Pro Mini is a smaller version of Arduino Pro board.",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "Arduino Nano",
+        "description": "Arduino Nano is a compact and breadboard-friendly version of Arduino boards.",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "TinyDuino",
+        "description": "TinyDuino is a tiny, stackable microcontroller board compatible with Arduino.",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "BotBoarduino",
+        "description": "BotBoarduino is an Arduino-compatible microcontroller board for robotics applications.",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "Dagu Micro Magician v2",
+        "description": "Dagu Micro Magician v2 is a small robot controller board with integrated motor drivers.",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "Motor control",
+          "I2C",
+          "SPI",
+          "UART"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "Red Back Spider",
+        "description": "Red Back Spider is an Arduino-compatible microcontroller board with additional features.",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "TI Launchpad",
+        "description": "TI Launchpad is a microcontroller development board compatible with Energia (Arduino-like environment).",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "BeagleBone-IO",
+        "description": "BeagleBone-IO is a library for using BeagleBone Black with Johnny-Five.",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "Blend-Micro-IO",
+        "description": "Blend-Micro-IO is a library for using RedBearLab's Blend Micro with Johnny-Five.",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "Galileo-IO",
+        "description": "Galileo-IO is a library for using Intel Galileo boards with Johnny-Five.",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "Bean-IO",
+        "description": "Bean-IO is a library for using PunchThrough's LightBlue Bean with Johnny-Five.",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "Nino-IO",
+        "description": "Nino-IO is a library for using MediaTek Labs' LinkIt Nino with Johnny-Five.",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "pcDuino-IO",
+        "description": "pcDuino-IO is a library for using pcDuino boards with Johnny-Five.",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "Pinoccio-IO",
+        "description": "Pinoccio-IO is a library for using Pinoccio boards with Johnny-Five.",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "Raspi-IO",
+        "description": "Raspi-IO is a library for using Raspberry Pi boards with Johnny-Five.",
+        "features": [
+          "digital IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "Spark-IO",
+        "description": "Spark-IO is a library for using Spark Core and Photon boards with Johnny-Five.",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART"
+        ]
+      },
+      {
+        "nickname": "test",
+        "name": "Imp-IO",
+        "description": "Imp-IO is a library for using Electric Imp boards with Johnny-Five.",
+        "features": [
+          "digital IO",
+          "analog IO",
+          "PWM",
+          "I2C",
+          "SPI",
+          "UART"
+        ]
+      }
+
+    ]
+  }
+  

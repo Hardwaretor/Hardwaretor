@@ -1,0 +1,27 @@
+{
+    "category": "serif",
+    "lastModified": "2023-08-25",
+    "subsets": [
+        "latin",
+        "latin-ext"
+    ],
+    "unicodeRange": {
+        "latin": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+        "latin-ext": "U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF"
+    },
+    "variants": {
+        "normal": {
+            "400": {
+                "local": [],
+                "url": {
+                    "eot": "https://fonts.gstatic.com/s/cutive/v21/NaPZcZ_fHOhV3IpLRvJG.eot",
+                    "svg": "https://fonts.gstatic.com/l/font?kit=NaPZcZ_fHOhV3IpLRvJF&skey=2312c8de064fc8e4&v=v21#Cutive",
+                    "ttf": "https://fonts.gstatic.com/s/cutive/v21/NaPZcZ_fHOhV3IpLRvJH.ttf",
+                    "woff": "https://fonts.gstatic.com/s/cutive/v21/NaPZcZ_fHOhV3IpLRvJE.woff",
+                    "woff2": "https://fonts.gstatic.com/s/cutive/v21/NaPZcZ_fHOhV3IpLSPJC.woff2"
+                }
+            }
+        }
+    },
+    "version": "v21"
+}
